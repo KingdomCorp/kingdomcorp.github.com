@@ -88,6 +88,9 @@ body {
   font-weight: bold;
   font-size: 3vw;
   font-family: 'Bebas Neue';
+  display: flex;
+  flex-flow: row-reverse;
+  align-items: center;
 }
 
 #sub-welcome {
@@ -98,6 +101,57 @@ body {
   text-align: right;
   margin-top: -1vh;
   padding-right: 28vw;
+}
+
+#portfolio {
+  text-decoration: none;
+  padding: .25vh .3vw;
+  font-weight: normal;
+  font-size: 1.3vw;
+  color: #333;
+  font-weight: bold;
+  border: .3vh solid currentColor;
+  margin-right: .6vw;
+  position: relative;
+}
+
+#portfolio::before {
+  content: '';
+  padding: .25vh .3vw;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: linear-gradient(to bottom, transparent 50%, #333 50%);
+  background-position: top;
+  background-size: auto 200%;
+  transition: all 150ms ease-in-out;
+}
+
+#portfolio::after {
+  content: 'VIEW PORTFOLIO';
+  padding: .25vh .3vw;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: linear-gradient(to bottom, #333 50%, #ccc 50%);
+  background-position: top;
+  background-size: auto 200%;
+  color: transparent;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  transition: all 150ms ease-in-out;
+}
+
+#portfolio:hover::after,
+#portfolio:hover::before {
+  background-position: bottom;
 }
 
 .fade {
