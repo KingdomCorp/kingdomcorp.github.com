@@ -27,9 +27,9 @@ $(window).ready(()=>{
   
   console.log('%cSTOP!', 'color: red; text-shadow: 2px 0px #000, 0px -2px #000, -2px 0px #000, 0px 2px #000;font-size: 7vh; font-weight: 600;font-family:Calibri');
   
-  console.log('%cThis code is paid for! In an event that you find this, you are already trying to bypass that. Please turn back now and simply ask Kingdom Corp for any question regarding this profile.', 'font-size: 3vh;font-family: Calibri;');
+  console.log('%cHello! Welcome to our website. I would appreciate it if you did not lurk behind the curtains.', 'font-size: 3vh;font-family: Calibri;');
   
-  console.log('%cIf you want to know more, go to https://roleplay.chat/profile.php?user=Kingdom+Corp', 'font-size: 3vh;font-family: Calibri;');
+  console.log('%cComissions are open! Please feel free to message us on Discord at Monstrum#3557', 'font-size: 3vh;font-family: Calibri;');
  
 
   $("head").append(`
