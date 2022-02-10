@@ -1,0 +1,246 @@
+/*
+!! IMPORTANT !!
+===== DO NOT REMOVE THIS WHOLE SECTION =====
+AUTHOR: Kingdom Corp (Elle & Tundra)
+FOR: Kingdom Corp [RPC PROFILE]
+LANGUAGE: CSS/HTML
+########------########-----########-----##############--------########-----------###################
+########-----########------########-----################------########---------#######################
+########----########-------########-----########-#######------########--------#######----------########
+########---########--------########-----########--#######-----########-------#######------------########
+########--########---------########-----########--########----########------#######---------------------
+########-########----------########-----########---#######----########------#######---------------------
+################-----------########-----########---########---########------#######---------------------
+########-########----------########-----########----#######---########------#######--------#############
+########--########---------########-----########----########--########------#######--------#############
+########---########--------########-----########-----#######--########-------#######-------------#######
+########----########-------########-----########------#######-########--------#######------------######
+########-----########------########-----########------################---------#######################
+########------########-----########-----########-------###############-----------###################
+
+============================================================================================================
+THE REST OF THE CODE IS KEPT IN MY FILE BUT IT WON'T AFFECT HOW YOUR PROFILE WILL LOOK. HERE ARE THE EDITABLE PORTIONS OF YOUR CODE.
+IT MAKES IT EASIER FOR YOU TO IGNORE THE PARTS OF THE CODE WHERE YOU REALLY CAN'T TOUCH BECAUSE IT MIGHT BREAK THE WHOLE THING. IT ALSO MAKES IT EASIER FOR ME TO FIX BUGS YOU MAY FIND.
+
+
+
+Thank you for choosing Monster Designs for your profile!
+Below you will find ':root' which is all the variables avaialeble for your profile. They are sectioned off
+by type so you can easily identify which one edits your profile. They are also named as to how they are used
+to further ease of use. Your fonts are all imported from Google Fonts or my own private collection. If you wish
+to change any font, you will not need to link them again as I have included it in your profile in advance. Simply
+go to https://fonts.google.com/ or https://themonstrousdev.github.io/fonts , choose the font you want to use, and change
+the font name in ':root' as you see fit.
+
+
+If you enjoy using my layouts, I hope you can take the time to leave me feedback! Don't worry, you may remain
+anonymous. https://themonstrousdev.github.io/feedback
+=============================================================================================================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&display=swap');
+
+body {
+  background: #ccc url(./assets/az-subtle.png);
+  position: absolute;
+  top:0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  font-size: 0.8vw;
+  font-family: 'Montserrat';
+  color: #333;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#title,
+#title-shadow {
+  color: #d4af37;
+  bottom: 11vh;
+  left: 0;
+  position: absolute;
+  width: 100vw;
+  text-align: right;
+  padding-right: 5vw;
+  letter-spacing: 0.2vw;
+  font-size: 7vw;
+  font-weight: bold;
+  font-family: 'Staatliches';
+}
+
+#title-shadow {
+  color: #333;
+  bottom: 10.5vh;
+  padding-right: 4.8vw;
+  opacity: 0.8;
+}
+
+#welcome {
+  position: absolute;
+  bottom: 6.5vh;
+  width: 100vw;
+  left: 0;
+  padding-right: 5vw;
+  text-align: right;
+  font-weight: bold;
+  font-size: 3vw;
+  font-family: 'Bebas Neue';
+}
+
+#sub-welcome {
+  font-family: "Montserrat";
+  font-size: 1vw;
+  font-weight: lighter;
+  letter-spacing: 0.1rem;
+  text-align: right;
+  margin-top: -1vh;
+  padding-right: 28vw;
+}
+
+.fade {
+  position: absolute;
+  bottom: 5vh;
+  width: 100%;
+  left: 0;
+  padding-right: 5vw;
+  text-align: right;
+  font-family: "Montserrat";
+  letter-spacing: 0.1vw;
+  font-size: 1vw;
+  font-weight: lighter;
+  font-size: 0.8vw;
+  opacity: 0.7;
+}
+
+.box {
+  position: absolute;
+  border: 0.8vh solid #4e4e4e;
+  background: rgba(238, 238, 238, 0.2);
+  box-shadow: inset 0.5vh 0.5vh 2vh rgba(0,0,0,0.3);
+  overflow: hidden;
+}
+
+.scroller {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: calc(100% + 1vw);
+  overflow: hidden scroll;
+  padding: 2vh;
+}
+
+#pricing {
+  height: 50vh;
+  width: 23vw;
+  top: 10vh;
+  left: 5vw;
+}
+
+#banned {
+  top: 61vh;
+  left: 5vw;
+  width: 23vw;
+  height: 30vh;
+}
+
+#addons {
+  top: 10vh;
+  left: 28.5vw;
+  /* height: 40vh; */
+  height: 81vh;
+  width: 27vw;
+}
+
+#guidelines {
+  top: 51vh;
+  left: 28.5vw;
+  height: 40vh;
+  width: 27vw;
+}
+
+#about {
+  height: 30vh;
+  width: 39vw;
+  top: 10vh;
+  right: 5vw;
+}
+
+#faq {
+  top: 41vh;
+  right: 5vw;
+  width: 39vw;
+  height: 32vh;
+}
+
+.emp {
+  color: green;
+}
+
+.price {
+  color: rgb(206, 65, 22);
+  font-weight: bolder;
+}
+
+.finePrint {
+  color: rgb(255, 83, 112);
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+li {
+  margin-bottom: 1vh;
+}
+
+b {
+  font-family: 'Staatliches';
+  font-size: 130%
+}
+
+h1,h2,h3,h4,h5,h6 {
+  padding: 0.2vh 1vw;
+  font-family: 'Staatliches';
+  letter-spacing: 0.1vh;
+  margin-top: 0px;
+  font-weight: normal;
+}
+
+h2 {
+  background: #333;
+  color: #eee;
+}
+
+h3 {
+  background: #666;
+  color: #eee;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: .5vh 2vw;
+}
+
+.status {
+  padding: .5vh 1vh;
+  text-transform: uppercase;
+  font-family: 'Staatliches';
+  border-radius: .5vh;
+  font-size: larger;
+  color: #eee;
+}
+
+.status.green {
+  background: rgb(10, 143, 10);
+}
+
+.status.red {
+  background: rgb(255, 44, 44);
+}
