@@ -29,7 +29,7 @@ $(window).ready(()=>{
   
   console.log('%cHello! Welcome to our website. I would appreciate it if you did not lurk behind the curtains.', 'font-size: 3vh;font-family: Calibri;');
   
-  console.log('%cComissions are open! Please feel free to message us on Discord at Monstrum#3557', 'font-size: 3vh;font-family: Calibri;');
+  console.log('%cComissions are open! Please feel free to message us on Discord at monstrum', 'font-size: 3vh;font-family: Calibri;');
  
 
   $("head").append(`
